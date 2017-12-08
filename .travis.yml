@@ -77,4 +77,5 @@ matrix:
       env: TEST=fuzzing MONOLITHIC=yes
     - compiler: clang
       os: osx
+      osx_image: xcode9.2
       env: TEST=osx
